@@ -16,8 +16,10 @@
             <span class="title2">Generator</span>
         </div>
         <p class="text">Never use an insecure password again.</p>
-        <button class="btn1" id="button" onclick="generate()">Generate passwords</button>
-        <input type="number" min="8" max="15" placeholder="change password length" class="change-password-length">
+        <div class="generator">    
+            <button class="btn1" id="button" onclick="generate()">Generate passwords</button>
+            <input type="number" min="8" max="15"  class="password-length" placeholder="8">
+        </div>
         <div class="results">
             <button class="btn2" id="copy-one" onclick="copyText()">password 1</button>
             <button class="btn2" id="copy-two" onclick="copyText()">password 2</button>
