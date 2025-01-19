@@ -7,16 +7,19 @@ const characters = [
 
 console.log(characters.length)
 
-let password = []
+let password = 0
 
 
 
 
 
-function generate(){
-    let randomNumber = Math.floor(Math.random()*91)
-    console.log(characters[randomNumber])
-
-
+function generate() {
+    for (let i=0; i<12; i++) {
+        let randomNumber = Math.floor(Math.random()*91)
+        let randomCharacter = characters[randomNumber]
+        password += randomCharacter
+        }
+    
+console.log(password)
 }
 
