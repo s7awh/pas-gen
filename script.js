@@ -4,3 +4,19 @@ const characters = [
     "0", "1", "2", "3", "4", "5", "6", "7", "8", "9",
     "~","`","!","@","#","$","%","^","&","*","(",")","_","-","+","=","{","[","}","]",",","|",":",";","<",">",".","?","/"
 ];
+
+console.log(characters.length)
+
+let password = []
+
+
+
+
+
+function generate(){
+    let randomNumber = Math.floor(Math.random()*91)
+    console.log(characters[randomNumber])
+
+
+}
+
