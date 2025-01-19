@@ -13,9 +13,7 @@ body {
     padding: 10px;
     width: 550pwx;
     height: 550px;
-    margin: 20px;
-  
-
+    margin: 20px; 
 }
 
 
@@ -46,9 +44,10 @@ body {
 }
 
 .results {
-    margin: 10px 0px;
+    margin: 20px 0px;
     display: flex;
     gap: 20px;
+    flex-wrap: wrap;
 }
 
 .btn2 {
