@@ -10,17 +10,22 @@
     <link href="https://fonts.googleapis.com/css2?family=Iceland&family=Karla:ital,wght@0,200..800;1,200..800&display=swap" rel="stylesheet">
 </head>
 <body>
-        <h1 class="main-text">Generate  <span class="green">random password</span> </h1>
-        <p>Never use an insecure password again.</p>
-          <div class="generator">
-          <button id="generator" onclick="generate()">Generate</button>
-          <input type="number" id="pass-lenght" name="pass-lenght" min="8" max="32"           placeholder="password lenght" />
-        </div>
-        
-        <div class="copybtns">    
-          <button class="passwords" id="pas1" onclick="copyPass()">Password 1</button>
-          <button class="passwords" id="pas2" onclick="copyPass()">Password 2</button>
-        </div>
-   <script src="script.js"></script>
+  <section class="first-section">    
+    <h1 class="main-text"><span class="green">Random </span>Password </span>Generator</h1>
+      <p>Never use an insecure password again.</p>
+  </section>
+  <section class="second-section"> 
+    <div class="generator">
+      <button id="generator" onclick="generate()">Generate passwords</button>
+      <input type="number" id="pass-lenght" name="pass-lenght" min="8" max="32"           placeholder="set lenght"/>
+    </div>
+  </section>
+  <section class="third-section">   
+    <div class="copybtns">    
+      <button class="passwords" id="pas1"` onclick="copyPass()">Password 1</button>
+      <button class="passwords" id="pas2" onclick="copyPass()">Password 2</button>
+    </div>
+  </section>
+<script src="script.js"></script>
 </body>
 </html>
