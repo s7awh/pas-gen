@@ -37,9 +37,10 @@ if (passwordLenght >= 8 && passwordLenght <=32) {
    } 
 }
 
-function copyPass() {
-  let pass1 = document.getElementById("pas1");
-  navigator.clipboard.writeText(pass1);
-}
+function copyPass1() {
+  navigator.clipboard.writeText(passEl1.innerText)
+  }
 
-
+function copyPass2() {
+  navigator.clipboard.writeText(passEl2.innerText)
+    }
