@@ -10,25 +10,17 @@
     <link href="https://fonts.googleapis.com/css2?family=Iceland&family=Karla:ital,wght@0,200..800;1,200..800&display=swap" rel="stylesheet">
 </head>
 <body>
-    <div class="main-window">
-        <div class="title-main">
-            <span class="title1">Password</span>
-            <span class="title2">Generator</span>
+        <h1 class="main-text">Generate  <span class="green">random password</span> </h1>
+        <p>Never use an insecure password again.</p>
+          <div class="generator">
+          <button id="generator" onclick="generate()">Generate</button>
+          <input type="number" id="pass-lenght" name="pass-lenght" min="8" max="32"           placeholder="password lenght" />
         </div>
-        <p class="text">Never use an insecure password again.</p>
-        <div class="generator">    
-            <button class="btn1" id="button" onclick="generate()">Generate passwords</button>
-            <input type="number" min="8" max="15"  class="password-length" placeholder="8">
+        
+        <div class="copybtns">    
+          <button class="passwords" id="pas1" onclick="copyPass()">Password 1</button>
+          <button class="passwords" id="pas2" onclick="copyPass()">Password 2</button>
         </div>
-        <div class="results">
-            <button class="btn2" id="copy-one" onclick="copyText()">password 1</button>
-            <button class="btn2" id="copy-two" onclick="copyText()">password 2</button>
-        </div>    
-    </div>
-
-
-
-
-    <script src="script.js"></script>
+   <script src="script.js"></script>
 </body>
 </html>
