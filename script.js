@@ -13,8 +13,9 @@ let passEl1 = document.getElementById("pas1")
 let passEl2 = document.getElementById("pas2")
 
 function generate() {
-let password1 = 0
-let password2 = 0
+let password1 = []
+let password2 = []
+
 if (passwordLenght >= 8 && passwordLenght <=32) {
        for (let i=0; i < passwordLenght; i++) {
         const length = characters.length
