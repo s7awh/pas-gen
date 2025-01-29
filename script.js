@@ -9,8 +9,10 @@ inputLenght.addEventListener('change', () => {
   ;
 })
 
+
 let passEl1 = document.getElementById("pas1")
 let passEl2 = document.getElementById("pas2")
+
 
 function generate() {
 let password1 = []
@@ -33,6 +35,11 @@ if (passwordLenght >= 8 && passwordLenght <=32) {
     passEl1.innerText = "Wrong lenght of password"
     passEl2.innerText = "Wrong lenght of password"
    } 
+}
+
+function copyPass() {
+  let pass1 = document.getElementById("pas1");
+  navigator.clipboard.writeText(pass1);
 }
 
 
