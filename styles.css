@@ -1,24 +1,52 @@
 body {
     margin: 0;
     background-color: #1F2937; 
+    box-sizing: border-box;
+    text-align: center;
    }
    
-   .main-text{
-     color: white;
-   }
+.main-text{
+   color: white;
+  }
    
-   p {
-     color: #D5D4D8;
-   }  
+p {
+  color: #D5D4D8;
+  }  
    
-   .green {
-     color: #4ADF86;
-   }
+.green {
+  color: #4ADF86;
+  }
    
-   #pass-lenght,#generator {
-     width: 150px;
-     margin-bottom: 50px;
-   }
+#pass-lenght,#generator {
+  width: 150px;
+  margin-bottom: 50px;
+  }
    
+#generator {
+  background-color: #10B981;
+  border: 1px solid black;
+  border-radius: 10px;
+  color: white;
+  width: 190px;
+  height: 42px;
+  font-size: 18px;
+  }
    
+.passwords {
+  margin: 5px
+  }
+
+.passwords,
+#pass-lenght {
+  background-color: #273549;
+  border: 1px solid black;
+  border-radius: 10px;
+  color: #55F991;
+  font-size: 18px;
+  padding: 10px;
+  }
+
+#pass-lenght {
+  color: white;
+}
    
