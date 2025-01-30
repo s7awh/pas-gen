@@ -16,13 +16,19 @@ p {
 .green {
   color: #4ADF86;
   }
-   
-#pass-lenght,#generator {
-  width: 150px;
-  margin-bottom: 50px;
-  }
-   
+      
+  
 #generator {
+  background-color: #10B981;
+  border: 1px solid black;
+  border-radius: 10px;
+  color: white;
+  width: 190px;
+  height: 42px;
+  font-size: 18px;
+  }
+
+#display-lenght {
   background-color: #10B981;
   border: 1px solid black;
   border-radius: 10px;
@@ -36,8 +42,7 @@ p {
   margin: 5px
   }
 
-.passwords,
-#pass-lenght {
+.passwords {
   background-color: #273549;
   border: 1px solid black;
   border-radius: 10px;
@@ -48,5 +53,7 @@ p {
 
 #pass-lenght {
   color: white;
+
+
 }
    
