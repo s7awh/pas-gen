@@ -38,8 +38,8 @@ if (passwordLenght >= 8 && passwordLenght <=32) {
        }           
    }
   else {
-    passEl1.innerText = "Wrong lenght of password"
-    passEl2.innerText = "Wrong lenght of password"
+    passEl1.innerText = "Set lenght"
+    passEl2.innerText = "Set lenght"
    } 
 }
 
