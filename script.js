@@ -9,6 +9,12 @@ inputLenght.addEventListener('change', () => {
   ;
 })
 
+let input = document.getElementById("pass-lenght")
+let displayLenght = document.getElementById("display-lenght")
+input.oninput = function (e) {
+	displayLenght.innerHTML = this.value;
+}
+
 
 let passEl1 = document.getElementById("pas1")
 let passEl2 = document.getElementById("pas2")
@@ -44,3 +50,7 @@ function copyPass1() {
 function copyPass2() {
   navigator.clipboard.writeText(passEl2.innerText)
     }
+
+
+
+    
