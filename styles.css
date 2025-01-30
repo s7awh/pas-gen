@@ -7,17 +7,28 @@ body {
    
 .main-text{
    color: white;
+   margin-top: 20px;
+   margin-bottom: 5px;
+
   }
    
 p {
   color: #D5D4D8;
+  margin: 0px;
   }  
    
 .green {
   color: #4ADF86;
   }
       
-  
+.generator {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 5px;
+  margin: 20px 0px;
+}
+
 #generator {
   background-color: #10B981;
   border: 1px solid black;
@@ -33,9 +44,11 @@ p {
   border: 1px solid black;
   border-radius: 10px;
   color: white;
-  width: 190px;
-  height: 42px;
+  width: 70px;
+  height: 40px;
   font-size: 18px;
+  text-align: center;
+  align-content: center;
   }
    
 .passwords {
